@@ -1,0 +1,6 @@
+{
+  "name": "Karrera Crisp — Premium Restaurant",
+  "description": "Porsche 911 luxury-inspired culinary experience featuring precision-crafted crispy chicken, gourmet burgers, and signature combos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

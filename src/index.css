@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-warm-ivory: #FFF8EF;
+  --color-soft-cream: #FFF1E5;
+  --color-secondary-cream: #F9EBDD;
+  --color-guards-red: #C90024;
+  --color-deep-crimson: #8F001B;
+  --color-accent-red: #E31827;
+  --color-glossy-black: #171717;
+  --color-charcoal: #292929;
+  --color-soft-silver: #C7C7C7;
+}
+
+/* macOS-Inspired Smooth Inertial Scrolling */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Hide scrollbar for clean luxury horizontal carousels while keeping smooth native trackpad/touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Porsche 911 Aerodynamic Glass & Gloss */
+.porsche-glass {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.porsche-dark-glass {
+  background: rgba(23, 23, 23, 0.90);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.guards-red-glow {
+  box-shadow: 0 10px 25px -8px rgba(201, 0, 36, 0.42);
+}
+
+.guards-red-glow-lg {
+  box-shadow: 0 16px 36px -10px rgba(201, 0, 36, 0.55);
+}
